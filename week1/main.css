@@ -1,0 +1,25 @@
+p 
+{
+    font-family: Arial, sans-serif;
+    color: #e29eba;
+    font-size: x-large;
+    line-height: 200%;
+    text-align: center;
+}
+h1
+{
+    padding-top: 15%;
+    font-size: 200%;
+    font-family: Georgia;
+    color: #e29eba;
+    text-align: center;
+}
+body
+{
+margin: 0%;
+}
+html
+{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(81, 12, 128), black);
+}
