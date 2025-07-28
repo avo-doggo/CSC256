@@ -1,0 +1,53 @@
+ /*
+ For reference:
+ content = text or image in the box
+ padding = space around content
+ border = box outline
+ margin = space outside the box
+ #blank to pull id
+ .blank to pull class
+ */
+ 
+ 
+ .container 
+{
+  display: flex;           /* Place side by side */
+  gap: 40px;               /* Space between columns */
+  align-items: flex-start; /* Align columns at the top */
+}
+
+html
+{
+background-color: darkslateblue;
+color: antiquewhite; /*change font color*/
+font-size: x-large;
+}
+.list-column 
+{
+  flex: 1;                 /* Take up the other half */
+  border-left: 2px solid #5f5f5f;
+  padding-left: 20px;
+}
+
+#list 
+{
+    margin-left: 150px;
+  display: flex;
+  flex-direction: column;  /* Stack movie titles vertically */
+  gap: 15px;               /* Space between movie titles */
+}
+#movieButtons
+{
+padding-bottom: 15px;
+border-bottom:2px solid #5f5f5f;
+text-align: center;
+}
+#movieInputs
+{
+    flex: 1;    
+     margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; 
+}

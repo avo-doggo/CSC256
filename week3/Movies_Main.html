@@ -1,0 +1,46 @@
+<!--jameson brown-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="Movies_Style.css">
+
+</head>
+
+<body> 
+    <div id="movieButtons">
+    <!--Buttons w/functions-->
+        <button type="button" onclick="addMovie()"> Add Movie</button>
+
+        <button type="button" onclick="displayList()"> Submit List</button>
+
+        <button onclick="resetList()"> Reset</button>
+        </div>
+    
+<div class="container">
+    
+        
+            <div id="movieInputs">
+        <h1>
+            List Movies
+        </h1>
+        <input type="text" placeholder="Enter Movie Title">
+        </div>
+        
+        <!--List-->
+    <div class="list-column">
+        <div id="list">
+        <h2>Your Movies</h2>
+        <!--ul is unordered list-->
+        <ul id="movieList">
+        </ul>
+        </div>
+    </div>
+</div>
+
+
+<script src="Movies_Script.js"></script>
+</body>
+</html>
