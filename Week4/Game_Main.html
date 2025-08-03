@@ -1,0 +1,36 @@
+<!--Jameson Brown-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Game_Style.css">
+</head>
+<body>
+  <!--Input fields/button-->
+ <div class="playerInfo">
+    <h1 id="heading">
+      Input Player Information Below:
+    </h1>
+<input type="text" id="playerName" placeholder="Player's Name">
+<input type="text" id="playerWeapon" placeholder="Player's Weapon">
+<input type="text" id="playerHealth" placeholder="Player's HP">
+<input type="text" id="pointTotal" placeholder="Player's Points">
+<button onclick="displayInfo()"> Submit </button>
+</div>
+<!--Outputs-->
+<div class="outputLeft">
+<div id="nameOutput"></div>
+<div id="weaponOutput"></div>
+</div>
+<div class="outputRight">
+<div id="healthOutput"></div>
+<div id="pointOutput"></div>
+</div>
+
+
+
+   <script src="Game_Script.js"></script>
+</body>
+</html>

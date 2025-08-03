@@ -1,0 +1,86 @@
+.playerInfo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 150px;
+}
+/*shared output class styles*/
+.outputLeft, .outputRight {
+    display: none;
+  position: absolute;
+  box-shadow: 0 0 10px white;
+  top: 10px;
+  padding: 10px 15px;
+  background-color:  #72181850 ; 
+  color: white;
+  border: 2px solid white; 
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 120px;
+}
+
+/*Left panel position*/
+.outputLeft {
+  left: 10px;
+  text-align: left;
+}
+
+/*Right panel position*/
+.outputRight {
+  right: 10px;
+  text-align: right;
+}
+
+#healthOutput { color: #ff4d4d; }  
+
+#pointOutput { color: #00ff66; }   
+
+#heading
+{
+ color: #721818;
+ font-family: Arial, Helvetica, sans-serif;
+ /*Heading Outline*/
+ text-shadow:  
+    -1px -1px 0 #d6adad,
+     1px -1px 0 #d6adad,
+    -1px  1px 0 #d6adad,
+     1px  1px 0 #d6adad;
+}
+input
+{
+    background-color: #721818;
+    color: white;
+    border: none;
+}
+
+input::placeholder 
+{
+  color: rgb(255, 255, 255);         
+  opacity: .5;          
+}
+
+button
+{
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: 3px 0,0,0;
+  background-color: #dbdbdb;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover 
+{
+background-color: #721818;
+color: #dbdbdb;
+}
+body
+{
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+}
